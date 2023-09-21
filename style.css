@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+main {
+    position: relative;
+    height: auto;
+    margin: 75px auto 0px auto;
+}
+
+header {
+    text-align: center;
+    padding: 18px;
+}
+
+nav {
+    padding: 18px;
+}
+
+section {
+    padding: 10px;
+    clear: both;
+}
+
+aside {
+    padding: 10px;
+}
+
+article {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
