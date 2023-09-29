@@ -9,31 +9,59 @@
 main {
     position: relative;
     height: auto;
-    margin: 75px auto 0px auto;
+    margin: 0px auto 0px auto;
 }
 
 header {
     text-align: center;
-    padding: 18px;
+    padding: 0px;
+    position: relative;
 }
 
 nav {
-    padding: 18px;
+    width: 90%;
+    height: 50px;
+    margin: auto auto 0px 4.5%;
+    text-align: center;
+    background-color: peru;
 }
 
 section {
-    padding: 10px;
-    clear: both;
+    position: relative;
+    padding: 0px;
 }
 
 aside {
-    padding: 10px;
+    width: 50%;
+    float: left;
 }
 
 article {
-    padding: 10px;
+    width: 50%;
+    float: left;
 }
 
 footer {
     text-align: center;
+    clear: both;
+}
+
+li {
+    display: inline-block;
+    margin: auto 0 auto auto;
+}
+
+.background {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+#background_image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    padding-top: 30%;
 }
