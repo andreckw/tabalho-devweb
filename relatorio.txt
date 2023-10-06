@@ -1,8 +1,11 @@
 André 
     Dia 28/09/2023 – criação do github e estrutura básica HTML, CSS feito nas primeiras aulas;
-    Dia 29/09/2023 - formatação de Index
-    https://celke.com.br/artigo/como-criar-site-scroll-com-menu-flutuante
-    Dia 04/10/2023 - Continuação do Index
+    Dia 29/09/2023 - formatação de Index, fazendo o menu pego no site:
+    https://celke.com.br/artigo/como-criar-site-scroll-com-menu-flutuante;
+    Dia 04/10/2023 - Continuação do Index;
+    Dia 06/10/2023 - Index, style
+    No Index continuando o section aside e article;
+    Style mudando o li para ul li pego no https://www.w3schools.com/css/css_list.asp e adicionando button;
 
 Renan 
 	Dia 28/09/2023 - 
