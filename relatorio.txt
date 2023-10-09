@@ -6,6 +6,7 @@ André
     Dia 06/10/2023 - Index, style
     No Index continuando o section aside e article;
     Style mudando o li para ul li pego no https://www.w3schools.com/css/css_list.asp e adicionando button;
+    Dia 09/10/2023 - Finalizado o Index;
 
 Renan 
 	Dia 28/09/2023 - 
