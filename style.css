@@ -12,6 +12,11 @@ main {
     margin: 0px auto 0px auto;
 }
 
+body {
+    background: url("img/madeira.png");
+    background-size: cover;
+}
+
 header {
     text-align: center;
     padding: 0px;
@@ -37,6 +42,8 @@ aside {
     height: 750px;
     padding: 50px 50px 50px 50px;
     float: left;
+    color: #ffffff;
+    font-size: 1.5em;
 }
 
 article {
@@ -53,9 +60,34 @@ footer {
     margin-top: 700px;
 }
 
-li {
+ul li {
     display: inline-block;
-    margin: auto 0 auto auto;
+}
+
+ol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #a9fc94;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #85fc67;
+    border: 2px solid #264e1c;
+}
+
+hr {
+    background-color: #ffffff;
+    color: #ffffff;
+    height: 25px;
+    position: relative;
+    width: 100%;
 }
 
 .background {
@@ -69,11 +101,9 @@ li {
     margin-right: auto;
 }
 
-.background_image {
-    position: absolute;
+.image_view {
     width: 100%;
-    text-align: center;
-    color: #f3af1b;
+    height: 60%;
 }
 
 #icon {
