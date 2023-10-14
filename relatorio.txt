@@ -9,6 +9,7 @@ André
         adicionando button;
     Dia 09/10/2023 - Finalizado o Index
         Começando a pagina de Personagens;
+    Dia 14/10/2023 - Fazendo pagina de Personagens;
 
 Renan 
 	Dia 28/09/2023 - 

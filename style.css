@@ -15,6 +15,7 @@ main {
 body {
     background: url("img/madeira.png");
     background-size: cover;
+    color: #ffffff;
 }
 
 header {
@@ -34,6 +35,7 @@ nav {
 section {
     position: relative;
     padding: 0px;
+    width: 100%;
 }
 
 aside {
@@ -42,7 +44,6 @@ aside {
     height: 750px;
     padding: 50px 50px 50px 50px;
     float: left;
-    color: #ffffff;
     font-size: 1.5em;
 }
 
@@ -90,10 +91,32 @@ hr {
     width: 100%;
 }
 
+p {
+   font-size: 1.5em;
+}
+
 .background {
     width: 100%;
     height: 750px;
     text-align: center;
+}
+
+.banner {
+    width: 40%;
+    height: 900px;
+    margin: 10px auto auto 700px;
+}
+
+.text_banner {
+    width: 250px;
+    height: 95%;
+    float: left;
+}
+
+.img_banner {
+    width: 500px;
+    height: 500px;
+    float: right;
 }
 
 .icon {
@@ -107,5 +130,6 @@ hr {
 }
 
 #icon {
-    width: 47px;
+    margin: 5px auto auto auto;
+    width: 30px;
 }
