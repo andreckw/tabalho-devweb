@@ -133,3 +133,11 @@ p {
     margin: 5px auto auto auto;
     width: 30px;
 }
+
+.box {
+    float: left;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 5px;
+}
