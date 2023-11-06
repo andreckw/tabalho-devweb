@@ -30,11 +30,18 @@
     <section>
         <div class="banner">
             <h2>NPC'S</h2>
-            <p class="text_banner">
+            <p class="text_banner" id="text">
                 Caroline é uma aldeã que mora na Vila Pelicanos.<br><br>
                 Caroline é casada com Pierre e eles vivem com sua filha Abigail no Armazém do Pierre.
             </p>
-            <img src="img/Caroline.png" class="img_banner">
+            <img src="img/Caroline.png" class="img_banner" id="personagem_image">
+			<hr>
+			<img src="img/Alex.png" onclick="trocarPersonagem(this)" 
+			name="Alex é um aldeão em Stardew Valley. Ele vive em uma casa a sudeste do Armazém do Pierre.
+			   Alex é um dos doze personagens disponíveis para Casar.">
+			<img src="img/Alex.png" onclick="trocarPersonagem(this)" 
+			name="Alex é um aldeão em Stardew Valley. Ele vive em uma casa a sudeste do Armazém do Pierre.
+			   Alex é um dos doze personagens disponíveis para Casar.">
         </div>
     </section>
 
@@ -43,5 +50,14 @@
         <a href="contato.html">Entre em contato conosco</a>
     </footer>
 </body>
+<script>
+	function trocarPersonagem(ev)
+	{
+		var img = document.getElementById("personagem_image");
+		var p = document.getElementById("text");
+		img.src = ev.src;
+		p.innerText = ev.name;
+	}
+</script>
 
 </html>

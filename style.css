@@ -131,9 +131,9 @@ textarea {
 }
 
 .banner {
-    width: 40%;
+    width: 60%;
     height: 900px;
-    margin: 10px auto auto 700px;
+    margin: 10px auto auto 30%;
 }
 
 .text_banner {
