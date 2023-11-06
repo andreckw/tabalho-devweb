@@ -11,6 +11,9 @@ André
         Começando a pagina de Personagens;
     Dia 14/10/2023 - Fazendo pagina de Personagens;
     Dia 23/10/2023 - Arruando o <nav> e fazendo a tela de Contato
+    Dia 06/11/2023 - Começando o JavaScript
+	usado para trocar o texto da tag <p>: 
+		https://stackoverflow.com/questions/52097840/how-to-overwrite-text-in-p-tag-using-javascript
 
 Renan 
 	Dia 28/09/2023 - 
