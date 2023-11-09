@@ -13,4 +13,5 @@ André
     Dia 23/10/2023 - Arruando o <nav> e fazendo a tela de Contato
 
 Renan 
-	Dia 28/09/2023 - 
+	Dia 05/10/2023 - criação e começo das paginas dos itens e background;
+    Dia 25/10/2023 - Dados nas paginas de itens, descricao e imagens dos itens nas paginas
