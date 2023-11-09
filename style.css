@@ -58,7 +58,7 @@ article {
 footer {
     text-align: center;
     clear: both;
-    margin-top: 700px;
+    position: relative;
 }
 
 ul li {
