@@ -58,7 +58,7 @@ article {
 footer {
     text-align: center;
     clear: both;
-    margin-top: 700px;
+    position: relative;
 }
 
 ul li {
@@ -131,9 +131,9 @@ textarea {
 }
 
 .banner {
-    width: 40%;
+    width: 60%;
     height: 900px;
-    margin: 10px auto auto 700px;
+    margin: 10px auto auto 30%;
 }
 
 .text_banner {

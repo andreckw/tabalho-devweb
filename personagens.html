@@ -13,6 +13,9 @@
             background: url(img/background.jpg) no-repeat;
             background-size:inherit;
         }
+        article {
+            margin-bottom: 500px;
+        }
     </style>
 </head>
 
@@ -30,18 +33,182 @@
     <section>
         <div class="banner">
             <h2>NPC'S</h2>
-            <p class="text_banner">
-                Caroline é uma aldeã que mora na Vila Pelicanos.<br><br>
+            <p class="text_banner" id="text">
+                Caroline é uma aldeã que mora na Vila Pelicanos.
                 Caroline é casada com Pierre e eles vivem com sua filha Abigail no Armazém do Pierre.
             </p>
-            <img src="img/Caroline.png" class="img_banner">
+            
+            <img src="img/Caroline.png" class="img_banner" id="personagem_image">
         </div>
     </section>
+    <hr>
+    <aside>
+        <h2> NPC's Casáveis </h2>
+        <img src="img/Alex.png" onclick="trocarPersonagem(this)" 
+            alt="Alex é um aldeão em Stardew Valley. Ele vive em uma casa a sudeste do Armazém do Pierre.
+                Alex é um dos doze personagens disponíveis para Casar.">
+        <img src="img/Elliott.png" onclick="trocarPersonagem(this)"
+            alt="Elliott é um aldeão que vive na praia ao sul de Vila Pelicanos. 
+                Ele é um dos doze personagens disponíveis para casamento.">
+        <img src="img/Harvey.png" onclick="trocarPersonagem(this)"
+            alt="Harvey é um aldeão que mora na Vila Pelicanos. 
+                Ele administra a clínica médica da cidade e se preocupa muito com a saúde dos moradores. 
+                Ele é um dos doze personagens disponíveis para casamento">
+        <img src="img/Sam.png" onclick="trocarPersonagem(this)"
+            alt="Sam é um aldeão que mora na Vila Pelicanos. 
+                Ele é um dos doze personagens disponíveis para casamento. 
+                Ele mora na parte sudeste da cidade, ao norte do rio, na Rua do Salgueiro, nº 1.">
+        <img src="img/Sebastian.png" onclick="trocarPersonagem(this)" 
+            alt="Sebastian é um aldeão que mora na Montanha ao norte da Vila Pelicanos. 
+                Ele é um dos doze personagens disponíveis para casamento.">
+        <img src="img/Shane.png" onclick="trocarPersonagem(this)" 
+            alt="Shane é um aldeão da Vila Pelicanos que está quase sempre bravo e infeliz, e sofre de depressão e alcoolismo.
+                Porém, sua atitude com o jogador começa a mudar caso este decida fazer amizade com ele.">
+        <img src="img/Abigail.png" onclick="trocarPersonagem(this)" 
+            alt="Abigail é uma aldeã que mora no Armazém do Pierre na Vila Pelicanos. 
+                Ela é uma dos doze aldeões disponíveis para Casamento.">
+        <img src="img/Emily.png" onclick="trocarPersonagem(this)" 
+            alt="Emily é uma aldeã que mora na Vila Pelicanos. Sua casa fica ao sul da praça da cidade, ao lado da casa de Jodi, na Rua do Salgueiro, nº 2.
+                Ela trabalha geralmente à tarde no Saloon Fruta Estrelar começando por volta das 4:00 PM.">
+        <img src="img/Haley.png" onclick="trocarPersonagem(this)"
+            alt="Haley é uma aldeã que vive em Vila Pelicanos. 
+                Ela é uma dos doze personagens disponíveis para casar.">
+        <img src="img/Leah.png" onclick="trocarPersonagem(this)"
+            alt="Leah é uma aldeã que vive em uma pequena cabana fora da Vila Pelicanos. 
+                Ela é um dos doze personagens disponíveis para casamento.">
+        <img src="img/Maru.png" onclick="trocarPersonagem(this)"
+            alt="Maru é uma das aldeãs que moram na Montanha, ao norte da Vila Pelicanos. 
+                Ela é um dos doze personagens disponíveis para casamento.">
+        <img src="img/Penny.png" onclick="trocarPersonagem(this)"
+            alt="Penny é uma aldeã que vive na Vila Pelicanos. Ela é uma das doze personagens disponíveis para casar. 
+                Seu trailer é logo ao leste do centro da vila, a oeste do rio.">
+    </aside>
+
+    <article>
+        <h2> NPC's não casáveis </h2>
+        <img src="img/Dwarf.png" onclick="trocarPersonagem(this)" 
+            alt="O Anão é um aldeão da vila que mora nas minas. 
+                Inicialmente o caminho é bloqueado por uma rocha inquebrável, logo dentro da entrada.">
+        <img src="img/Caroline.png" onclick="trocarPersonagem(this)" 
+            alt="Caroline é uma aldeã que mora na Vila Pelicanos. 
+                Caroline é casada com Pierre e eles vivem com sua filha Abigail no Armazém do Pierre.">
+        <img src="img/Clint.png" onclick="trocarPersonagem(this)" 
+            alt="Clint é um aldeão que mora na Vila Pelicanos. 
+                Ele comanda o Ferreiro local.">
+        <img src="img/Demetrius.png" onclick="trocarPersonagem(this)" 
+            alt="Demetrius é um aldeão em Stardew Valley. Ele mora na Rua da Montanha, 
+                nº 24, na Montanha, com sua esposa Robin, sua filha Maru, e o enteado Sebastian.">
+        <img src="img/Evelyn.png" onclick="trocarPersonagem(this)" 
+            alt="Evelyn é uma aldeã que mora na Vila Pelicanos, 
+                e é responsável pelas flores da cidade.">
+        <img src="img/Wizard.png" onclick="trocarPersonagem(this)" 
+            alt="O Feiticeiro, também conhecido como M. Rasmodeu, 
+                é um aldeão que mora na Torre do mago no extremo oeste da Floresta Cinzaseiva.">
+        <img src="img/George.png" onclick="trocarPersonagem(this)" 
+            alt="George é um aldeão que mora na Vila Pelicanos com uma personalidade tanto quanto rabugenta.
+                Ele mora na Estrada do Rio, nº 1 com sua esposa, Evelyn, e seu neto, Alex.">
+        <img src="img/Gus.png" onclick="trocarPersonagem(this)" 
+            alt="Gus é um aldeão que mora e trabalha no Salão na Vila Pelicanos. 
+                Ele é dono do estabelecimento.">
+        <img src="img/Jas.png" onclick="trocarPersonagem(this)" 
+            alt="Jas é uma aldeã que mora fora da Vila Pelicanos, mais precisamente, no Rancho da Marnie.
+                Ela é uma menininha, e muitas vezes pode ser encontrada com seu melhor amigo Vincent.">
+
+        <img src="img/Jodi.png" onclick="trocarPersonagem(this)" 
+            alt="Jodi é uma aldeã que mora na Vila Pelicanos. Ela vive na Rua do Salgueiro, 
+                nº 1 com seu marido Kent e seus dois filhos, Sam e Vincent.">
+        <img src="img/Kent.png" onclick="trocarPersonagem(this)" 
+            alt="Kent é um aldeão que mora na Vila Pelicanos. Ele está ausente servindo o exército durante 
+                o primeiro ano e retorna para morar na cidade durante a primavera do ano dois.">
+        <img src="img/Krobus.png" onclick="trocarPersonagem(this)" 
+            alt="Krobus é o único monstro amigável que os jogadores vão encontrar. 
+                Ele é um Bruto das sombras que vive no esgoto, porque ele é muito sensível à luz do sol
+                para sair durante o dia.">
+        <img src="img/Leo.png" onclick="trocarPersonagem(this)" 
+            alt="Leo é um menino que inicialmente vive na Ilha Gengibre. Seus pais se perderam no mar
+                e ele considera os papagaios que habitam a ilha sua família. 
+                Inicialmente, ele é muito tímido para falar com o jogador, até que o jogador 
+                'faça amizade' com os papagaios da ilha.">
+        <img src="img/Lewis.png" onclick="trocarPersonagem(this)" 
+            alt="Lewis é o prefeito da Vila Pelicanos. Junto com Robin, ele te dá as boas-vindas quando você se 
+                muda para o Vale e explica um pouco sobre a vida na fazenda.">
+        <img src="img/Linus.png" onclick="trocarPersonagem(this)" 
+            alt="Linus é um aldeão que mora numa pequena 
+                tenda ao norte da Vila Pelicanos perto das Minas.">
+        <img src="img/Marnie.png" onclick="trocarPersonagem(this)" 
+            alt="Marnie é uma aldeã em Stardew Valley. Ela reside no Rancho da Marnie na região nordeste da Floresta Cinzaseiva,
+                perto da entrada sudoeste da Vila Pelicanos.">
+        <img src="img/Pam.png" onclick="trocarPersonagem(this)" 
+            alt="Pam é uma aldeã que mora no Trailer logo à oeste do rio na Vila Pelicanos. 
+                Ela era a motorista do ônibus da Vila Pelicanos antes dele quebrar. 
+                Uma vez que o serviço do ônibus seja restabelecido, a Pam administrará o 
+                Ponto de Ônibus ao leste da Fazenda">
+        <img src="img/Pierre.png" onclick="trocarPersonagem(this)" 
+            alt="Pierre é um aldeão que mora na Vila Pelicanos. 
+                Ele é dono e gerencia o Armazém do Pierre.">
+        
+        <img src="img/Robin.png" onclick="trocarPersonagem(this)" 
+            alt="Robin é um dos aldeões de Stardew Valley. Ela mora na Rua da Montanha, nº 24,
+                na Montanha, com seu marido Demetrius, a filha Maru, e o filho Sebastian.">
+        <img src="img/Sandy.png" onclick="trocarPersonagem(this)" 
+            alt="Sandy é um aldeão que mora no Deserto de Calico onde ela gerencia a loja Oásis. 
+                Os jogadores não irão encontrá-la até que tenham concluído o conjunto do 
+                cofre para reparar o ônibus para o deserto.">
+        <img src="img/Vincent.png" onclick="trocarPersonagem(this)" 
+            alt="Vincent é um aldeão que vive na parte sul da Vila Pelicanos. 
+                Ele é um menininho, e muitas vezes pode ser encontrado com sua melhor amiga Jas.">
+        <img src="img/Willy.png" onclick="trocarPersonagem(this)" 
+            alt="Willy é um aldeão que cresceu viajando pelas Ilhas Samambaia e agora mora ao sul da Vila Pelicanos na Praia. 
+                Ele vende Isca e suprimentos de Pesca em sua Peixaria. Sua loja está aberta 
+                todos os dias">
+        <img src="img/Ajudante.png" onclick="trocarPersonagem(this)" 
+            alt="O Ajudante guarda a Cabana da Bruxa dentro do Pântano da bruxa.
+             Os jogadores o encontrarão após viajar até o pântano, mas não conseguirão passar por ele.">
+        <img src="img/Avo.png" onclick="trocarPersonagem(this)" 
+            alt="Vovô é o primeiro personagem apresentado. 
+            Ele escreve uma carta presenteando a fazenda, o que faz o jogador se mudar para Stardew Valley.">
+        <img src="img/Passarinha.png" onclick="trocarPersonagem(this)" 
+            alt="Passarinha é uma senhora que mora em uma cabana na Ilha Gengibre, no extremo oeste da ilha.">
+        <img src="img/Gil.png" onclick="trocarPersonagem(this)" 
+            alt="Gil é um aldeão que mora no Nordeste da Vila Pelicanos, na Guilda dos Aventureiros.">
+        <img src="img/Governador.png" onclick="trocarPersonagem(this)" 
+            alt="O Governador é o governador da região da qual a Vila Pelicanos faz parte.
+            Ele frequenta o Luau anualmente e saboreia a comida local.
+            Fora desse evento, ele pode ser visto também no cinema.
+            Dentre ambas citações o Governador não é visto nem citado em Stardew Valley.">
+        <img src="img/Gunther.png" onclick="trocarPersonagem(this)" 
+            alt="Gunther é um aldeão que gerencia o museu da Vila Pelicanos.">
+        <img src="img/Marlon.png" onclick="trocarPersonagem(this)" 
+            alt="Marlon é um aldeão que mora no nordeste da Vila Pelicanos, na Guilda dos Aventureiros.
+             Ele vai comprar qualquer bem derrubado de monstros que você pegar nas minas seguindo para o balcão da Guilda dos Aventureiros.">
+        <img src="img/Morris.png" onclick="trocarPersonagem(this)" 
+            alt="Morris é um dos aldeões que trabalha no Mercado Joja na Vila Pelicanos.
+             Ele é o gerente e também atua como representante do serviço ao cliente.
+             Ele oferecerá para vender ao jogador uma adesão ao Mercado Joja.
+            Se o jogador optar por comprar essa filiação, o Armazém Joja substituirá o Centro Comunitário abandonado.">
+        <img src="img/ProfessorCaracol.png" onclick="trocarPersonagem(this)" 
+            alt="Professor Caracol mora na Ilha Gengibre e dirige o Escritório local da ilha.">
+        <img src="img/Seguranca.png" onclick="trocarPersonagem(this)" 
+            alt="O Segurança guarda a entrada do Cassino, localizado na parte de trás do Oásis, impedindo o acesso até a conclusão da missão O misterioso Qi.">
+        <img src="img/Mrqi.png" onclick="trocarPersonagem(this)" 
+            alt="Sr. Qi é um estranho misterioso que é encontrado pela primeira vez quando o jogador coloca um conjunto de pilhas na caixa-chave do túnel.
+             Ele está conectado à caixa vazia na estação de trem.">
+    </article>
 
     <footer>
         Criado por Renan e André<br>
         <a href="contato.html">Entre em contato conosco</a>
     </footer>
+
+    <script>
+        function trocarPersonagem(ev)
+        {
+            var img = document.getElementById("personagem_image");
+            var p = document.getElementById("text");
+            img.src = ev.src;
+            p.innerText = ev.alt;
+        }
+    </script>
 </body>
 
 </html>
