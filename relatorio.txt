@@ -14,6 +14,11 @@ André
     Dia 06/11/2023 - Começando o JavaScript
 	usado para trocar o texto da tag <p>: 
 		https://stackoverflow.com/questions/52097840/how-to-overwrite-text-in-p-tag-using-javascript
-
+    Dia 09/11/2023 - Banner da pagina de Personagens;
+    Dia 16/11/2023 - Conserto do index.
 Renan 
-	Dia 28/09/2023 - 
+	Dia 05/10/2023 - criação e começo das paginas dos itens e background;
+    Dia 25/10/2023 - Dados nas paginas de itens, descricao e imagens dos itens nas paginas;
+    Dia 09/11/2023 - Banner da pagina de Personagens;
+    Dia 16/11/2023 - Conserto do footer na pagina de itens.
+    
